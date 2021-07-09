@@ -29,6 +29,7 @@ main {
     background: #ddd;
     margin-right: 10%;
     align-self: flex-start;
+    animation: 0.25s fadein forwards;
     opacity:0;
 }
 
@@ -40,12 +41,10 @@ main {
 }
 
 .delay1 {
-    animation: 0.25s fadein forwards;
     animation-delay: 3s;
 }
 
 .delay2 {
-    animation: 0.25s fadein forwards;
     animation-delay: 6s;
 }
 
